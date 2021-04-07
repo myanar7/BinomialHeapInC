@@ -12,7 +12,7 @@ if the document have one keyword at least.
 
 3-)Here is the enqueue and dequeue part of my source codes:
 
-### DEQUEUE
+### ENQUEUE
 
 Insertion part is making a new heap and insert it to the main heap.
 
@@ -79,8 +79,6 @@ In the unionHeaps function we firstly merged two heaps to make the change on the
 Then we will control both side of the current root and if there are two node has same degree linked 
 (make one become child of the other one) by the magnitude of the value of the node->data. 
 mergeHeap method :
-
-```C
 
 ```C
 Node* unionHeap(Node* heap1, Node* heap2) {// SET UP THE LOCATION AND CONTENT OF THE 
